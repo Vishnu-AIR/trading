@@ -1,0 +1,27 @@
+.bottom-bar{
+    position:absolute;top:0;
+    height:80px;width:100vw;
+    background-color: rgb(51, 53, 55);
+    z-index:10;
+    display:flex;
+    justify-content: center;
+    padding:0px 8px 0px 8px;
+    align-items: center;
+}
+.bottom-navigator{
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-bottom{
+    height:100px;width:100px;
+    z-index:30;
+
+}
+
+@media only screen and (max-width:500px){
+   
+   
+}

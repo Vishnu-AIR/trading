@@ -1,0 +1,164 @@
+.our-mentors{
+    width:100vw;
+    padding-top:50px;
+   
+    display:flex;
+    gap:60px;
+    flex-direction: column;
+
+   
+}
+.our-mentors-head{
+    display:flex;
+    justify-content: center;
+    color:white;
+    font-size:32px;
+    font-family:'League Spartan';
+    font-weight:bold;
+    
+}
+.head-text{
+    position:relative;
+    display:flex;
+    justify-content: center;
+}
+.head-text::after{
+    position:absolute;
+    content:'';
+    width:80%;
+    bottom:0px;
+    height:4px;
+    background-color: #CF6060;
+}
+.mentors-flexbox{
+    width:100vw;
+    display:flex;
+    height:auto;
+    position:relative;
+
+}
+.mentor-1,.mentor-2{
+    height:450px;
+    width:50%;
+    background-color: black;
+    position:relative;
+}
+.mentor-1 img,.mentor-2 img{
+    height:530px;
+    width:260px;
+    z-index:3;
+}
+.mentor-1-about ,.mentor-2-about{
+    position:absolute;
+    height:350px;
+    width:700px;
+    color:white;
+    background: rgba(217, 217, 217, 0.10);
+    top:10px;
+    right:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.mentor-2-about{
+    left:20px;
+    
+}
+.mentor-details{
+    width:60%;
+    text-align: justify;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:10px;
+    height:auto;
+
+
+}
+.mentor-1-name,.mentor-2-name{
+    font-size:24px;
+    
+   
+}
+
+
+.triangle-1{
+    width:0;
+    height:0;
+    position:absolute;
+    border-bottom:150px solid #98561A;
+    border-right:400px solid transparent;
+    bottom:0;
+    z-index:2;
+    left:0;
+}
+.triangle-2{
+    width:0;
+    height:0;
+    position:absolute;
+    border-bottom:150px solid #2C981A;
+    border-left:400px solid transparent;
+    bottom:0;
+    z-index:2;
+    right:0;
+}
+
+
+@media only screen and (max-width:1415px) and (min-width:1170px){
+    .mentor-details{
+        width:300px;
+        
+    }
+    .mentor-1-about,.mentor-2-about{
+        width:600px;
+        height:400px;
+    }
+    .mentor-1 img,.mentor-2 img{
+        height:480px;
+        width:220px;
+        z-index:3;
+    }
+}
+@media only screen and (max-width:1170px){
+    .mentors-flexbox{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mentor-1,.mentor-2{
+        width:100vw;
+    }
+    .mentor-1-about,.mentor-2-about{
+        width:100%;
+        left:0;right:0;
+    }
+    
+    
+
+
+}
+
+@media only screen and (max-width:680px){
+   
+    .mentor-1-about,.mentor-2-about{
+        height:400px
+    }
+    .mentor-1 img,.mentor-2 img{
+        height:480px;
+        width:220px;
+        z-index:3;
+    }
+   
+}
+.om{display:none;}
+@media only screen and (max-width:520px){
+    .our-mentors{
+        display:none;
+    }
+    
+   .om{width:102vw;
+    display:block;
+height:auto;}
+
+    
+}

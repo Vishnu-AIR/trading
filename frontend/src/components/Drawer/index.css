@@ -1,0 +1,91 @@
+.Drawer{
+    position:absolute;
+    z-index: 4;
+    top:0;
+    height:600px;
+    width:100vw;
+    background: rgba(255, 255, 255, 0.65);
+    display:flex;
+    flex-direction: column;
+    font-family: 'League Spartan';
+    transform:translateY(-600px);
+    transition:0.4s;
+
+}
+.small-panel{
+    width:100vw;
+    background: rgb(0, 0, 0);
+    height:80px;
+    display:flex;
+    
+    justify-content: center;
+}
+.logo-plus-cross{
+    display:flex;
+    width:90vw;
+    height:100%;
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+    align-items: center;
+    position:relative;
+}
+.options-drawer{
+    height:520px;width:100vw;
+    background: rgb(0, 0, 0);
+    color:rgb(203, 203, 203);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    font-size:24px;
+}
+.partition-drawer{
+    width:250px;
+    height:1.5px;
+    background-color: #454545;
+}
+.ctus{
+    background-color: rgba(95, 95, 95, 0.583);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px 0px rgba(37, 206, 209, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    ;
+    background-image: linear-gradient(to right, rgba(32, 242, 255, 1), rgba(133, 255, 152, 0.65), rgba(255, 199, 0, 0.66));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.animated{
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.c1{
+    animation-delay: 0s;
+}
+.c2{
+    animation-delay: 0.1s;
+}
+.c3{
+    animation-delay: 0.2s;
+}
+
+.c4{
+    animation-delay: 0.3s;
+}
+.c5{
+    animation-delay: 0.4s;
+}

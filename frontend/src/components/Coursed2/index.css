@@ -1,0 +1,97 @@
+.course-detail{
+    width:calc(100vw);
+    min-height:800px;
+    height:auto;
+    display:flex;
+    flex-wrap: wrap;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    position:relative;
+    margin-top:20px;
+    padding:100px 50px 100px 50px;
+  color:white;
+}
+
+.details-course,.course-display{
+    width:600px;
+    min-height:600px;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:40px;
+    background-color: rgb(0, 0, 0);
+   
+}
+.detail-head{
+    display:flex;
+    align-items: center;
+    gap:20px;
+    font-size:24px;
+    font-weight:bold;
+    color:white;
+    font-family: 'League Spartan';
+}
+
+.dark{
+    color:white;
+    font-size:32px;
+}
+.light{
+    color:rgb(153,153,153);
+    font-size:32px;
+}
+.detail-time{
+    display:flex;
+    gap:10px;
+    
+}
+.detail-time div{
+    display:flex;
+    align-items: center;
+    gap:5px;
+}
+.detail-spec{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+.flex-coursed{
+    display:flex;
+    gap:12px;
+    align-items: center;
+    font-size:20px;
+}
+.gradient-text {
+    background: -webkit-linear-gradient(45deg, #31ffe0, #87ff6d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+    
+    /* Add any other styles you need */
+    
+  }
+.flex-coursed-2{
+    display:flex;
+    align-items: start;
+    font-size: 20px;
+}
+.icon-prop{
+    color:white;
+    font-size:24px;
+}
+.course-display{
+    width:calc(600px-100px);
+    padding:50px;
+    border-radius:10px;
+    background-color: rgba(217, 217, 217, 0.1);
+    background: linear-gradient(to bottom right , rgb(32, 32, 32) ,rgb(23, 23, 23), rgba(165, 165, 125, 0.598));
+}
+.course-img-detail{
+    height:300px;
+    width:100%;
+    border-radius:20px;
+}
+

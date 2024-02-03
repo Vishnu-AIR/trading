@@ -1,0 +1,55 @@
+.Vibrant{
+    width:100vw;
+    padding-top: 50px;
+    padding-bottom:50px;
+    /* background-color: gray; */
+    display:flex;
+    background: #151515;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:40px;
+
+    
+}
+
+.vibrant-left div:nth-child(1){
+    font-size:32px;
+    font-weight: bold;
+    color:#666;
+    position:relative;
+}
+.vibrant-left div:nth-child(2) span:nth-child(1){
+    font-size:36px;
+    font-weight: bold;
+    color:#FF5E5E;
+    position:relative;
+    top:-15px;
+}
+.vibrant-left div:nth-child(2) span:nth-child(2){
+    font-size:32px;
+    font-weight: bold;
+    color:#666;
+    position:relative;
+    top:-15px;
+}
+.vibrant-left div:nth-child(3){
+    font-size:32px;
+    font-weight: bold;
+    color:#666;
+    position:relative;
+    top:-25px;
+}
+.vibrant-right{
+    font-size: 24px;
+    color:#DDD;
+    font-family: 'League Spartan';
+}
+
+
+@media only screen and (max-width:800px){
+    .vibrant-right{
+        width:80vw;
+        
+    }
+}

@@ -1,0 +1,65 @@
+.module{
+    position:relative;
+   background-color: black;
+    width:calc(100vw);
+    min-height:600px;
+    height:auto;
+    padding:100px 75px 100px 75px;
+    display:flex;
+    flex-direction: column;
+    gap:60px;
+}
+.our-module{
+    display:flex;
+    justify-content: center;
+    color:white;
+    font-size:32px;
+    font-family:'League Spartan';
+    font-weight:bold;
+    
+}
+.text-modulehead{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.text-modulehead::after{
+    position:absolute;
+    content:'';
+    width:80%;
+    bottom:0px;
+    height:4px;
+    background-color: #CF6060;
+}
+.child-group{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.child-elements{
+    background-color: white;
+    ;
+    height:auto;
+    min-height:200px;
+    width:300px;
+    border-radius:15px;
+    padding:16px;
+    
+    display:flex;
+    flex-direction: column;
+   gap:4px;
+}
+
+
+@media only screen and (max-width:720px){
+    .module{
+        width:100vw;
+        padding:10px;
+    }
+    .child-elements{
+        width:95%;
+    }
+}

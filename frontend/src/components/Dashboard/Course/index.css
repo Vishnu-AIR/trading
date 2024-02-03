@@ -1,0 +1,112 @@
+.course-page{
+    width:100vw;
+    min-height:950px;
+    height:100vh;
+    background-color: rgb(37,37,37);
+    font-family: 'League Spartan';
+}
+.course-land{
+    position:relative;
+    
+    min-height:950px;
+    width:calc(100vw - 250px);
+    left:250px;
+    display:flex;
+    background-color: rgb(37,37,37);
+    position:relative;
+}
+.course-left{
+    width:70%;
+    min-height:950px;
+    background-color: rgb(37,37,37);
+    border-right:0.2px solid gray;
+}
+.start-learning{
+    width: 100%;
+    height:300px;
+    background-color: rgb(37,37,37);
+    border-bottom:0.5px solid gray;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:8px;
+    
+}
+.learn-text{
+    font-size:48px;
+    width:70%;
+    margin-left:15%
+}
+.search-learn{
+    width:70%;
+    margin-left:15%;
+    background-color: gray;
+    padding:8px;
+    border-radius:12px;
+}
+.search-learn input{
+    width:90%;
+    background:none;
+    border:none;
+    outline:none;
+    color:white;
+    font-size:18px;
+}
+.search-learn input::placeholder{
+    color:white;
+    font-size:18px;
+}
+.course-right{
+    width:30%;
+   
+}
+
+.course-right div{
+    
+    color:rgb(170, 170, 170);
+    font-size:32px;
+    display:flex;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    margin-top:80px;
+    cursor:pointer;
+}
+.course-right div::after{
+    position:absolute;
+    width: 40%;
+    left:30%;
+    content:'';
+    height:2px;
+    background-color: gray;
+    bottom:0px;
+}
+@media only screen and (max-width:1300px){
+    .course-land{
+        width:100vw;
+        left:0px;
+      
+
+        margin-top: 80px;
+
+    }
+    .course-left{
+        width:100%;
+    }
+    .course-right{
+        width:350px;
+        height:100%;
+        transform:translateX(350px);
+       position:absolute;
+        right:0;
+        background:rgb(73, 73, 73);
+        transition: 0.4s;
+    }
+
+}
+
+
+.reset{
+    transform:translateX(0px)
+}
