@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import index from "./index.css";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 import { FaStar } from "react-icons/fa";
 import { ImQuotesRight } from "react-icons/im";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
